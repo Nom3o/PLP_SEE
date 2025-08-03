@@ -8,3 +8,4 @@ print(fav_color, 'is the best color buddy!')
 country = ['Ethiopia','ghana','south africa','kenya']
 print(country[::-1])
 print(country[1:3])
+print(country[2:3])
