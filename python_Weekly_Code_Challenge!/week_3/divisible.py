@@ -8,11 +8,9 @@ operator % to check for divisibility.
 
 """
 
+
+def divisible_by_ten(num):
+    return num % 10 == 0
+
 num = int(input('Enter a number: '))
-def divisible_by_ten():
-    if num % 10 == 0:
-        print('true')
-    else:
-        print('false')
-        
-divisible_by_ten()
+print(divisible_by_ten(num))
